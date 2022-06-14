@@ -1,0 +1,70 @@
+.feedback {
+    width: 80%;
+    margin: 0 auto;
+
+    .feedback_category {
+        text-align: center;
+        color: #ffcb01;
+    }
+
+    .comment_container {
+        height: 100px;
+        display: flex;
+        margin: 20px 0;
+
+        .feedback_comment {
+            font-family: Montserrat-SemiBold;
+        }
+
+        .comment_icon:hover {
+            filter: none;
+        }
+
+        .comment_icon {
+            display: block;
+            margin-right: 20px;
+            height: 64px;
+            filter: invert(82%) sepia(53%) saturate(5235%) hue-rotate(3deg) brightness(110%) contrast(106%);
+        }
+
+    }
+
+    .feedback_author {
+        color: #ffcb01;
+        text-align: center;
+        font-family: Montserrat-Bold;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .feedback_rating {
+        justify-content: center;
+        display: flex;
+
+        li {
+            img {
+                display: block;
+                margin: 0 5px;
+                height: 22px;
+                filter: invert(82%) sepia(53%) saturate(5235%) hue-rotate(3deg) brightness(110%) contrast(106%);
+            }
+
+        }
+
+        li:hover {
+            img {
+                filter: invert(99%) sepia(54%) saturate(1332%) hue-rotate(183deg) brightness(123%) contrast(84%);
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .feedback {
+        width: 100%;
+
+        p {
+            padding-bottom: 50px;
+        }
+    }
+}

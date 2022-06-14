@@ -1,0 +1,38 @@
+.button {
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.button.black {
+    background-color: #111112;
+    color: #ffcb01;
+}
+
+.button.orange {
+    background-color: #ffcb01;
+    color: black;
+}
+
+.button.big {
+    border-radius: 8px;
+    font-family: Montserrat-SemiBold, sans-serif;
+    font-size: 16px;
+    width: 254px;
+    height: 68px;
+}
+
+.button.medium {
+    border-radius: 4px;
+    font-size: 12px;
+    width: 172px;
+    height: 51px;
+}
+
+.button.small {
+    font-size: 12px;
+    width: 122px;
+    height: 39px;
+}
+
+.button:hover {
+    color: #aeaeae;
+}
