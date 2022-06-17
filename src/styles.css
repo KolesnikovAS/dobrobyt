@@ -20,6 +20,13 @@
 }
 
 @font-face {
+    font-family: Montserrat-Light;
+    font-style: bold;
+    font-weight: 400;
+    src: local(Montserrat-Light), url(Assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
     font-family: Montserrat-Thin;
     font-style: bold;
     font-weight: 200;
@@ -34,8 +41,20 @@
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
     color: black;
+}
+
+a img,
+a p,
+a div,
+a h1,
+a h2,
+a h3,
+a h4,
+a h5 {
+    cursor: pointer;
 }
 
 li {
@@ -77,25 +96,29 @@ h1 {
     font-size: 60px;
     line-height: 72px;
 }
+
 h2 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 48px;
-    line-height: 60px; 
+    line-height: 60px;
 }
+
 h3 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 40px;
-    line-height: 56px; 
+    line-height: 56px;
 }
+
 h4 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 32px;
-    line-height: 48px; 
+    line-height: 48px;
 }
+
 h5 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 24px;
-    line-height: 32px; 
+    line-height: 32px;
 }
 
 p {

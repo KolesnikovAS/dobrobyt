@@ -15,6 +15,19 @@ import watchIcon from './Icons/watch.png';
 import dialogIcon from './Icons/dialog.png';
 import starIcon from './Icons/star.png';
 import fullStarIcon from './Icons/fullstar.png';
+import manIcon from './Icons/man.png';
+import checkIcon from './Icons/check.png';
+import checkedIcon from './Icons/checked.png';
+import fullClockIcon from './Icons/fullclock.png';
+import smileIcon from './Icons/smile.png';
+import locationIcon from './Icons/location.png';
+import emailIcon from './Icons/email.png';
+import clockIcon from './Icons/clock.png';
+import callIcon from './Icons/call.png';
+import vkontakteIcon from './Icons/vkontakte.png';
+import telegramIcon from './Icons/telegram.png';
+import whatsappIcon from './Icons/whatsapp.png';
+import instagramIcon from './Icons/instagram.png';
 
 export default {
     arrowIcon,
@@ -34,4 +47,17 @@ export default {
     dialogIcon,
     starIcon,
     fullStarIcon,
+    fullClockIcon,
+    checkIcon,
+    checkedIcon,
+    manIcon,
+    smileIcon,
+    locationIcon,
+    callIcon,
+    emailIcon,
+    clockIcon,
+    instagramIcon,
+    telegramIcon,
+    whatsappIcon,
+    vkontakteIcon,
 };

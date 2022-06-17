@@ -7,6 +7,9 @@ import masterNaChas from './Home/master-na-chas.jpg';
 import logo from './Home/logo.svg';
 import logoDark from './Home/logo-dark.svg';
 import guaranteesImage from './Home/guarantees.png';
+import promotion1 from './Home/promotion1.jpg';
+import promotion2 from './Home/promotion2.jpg';
+import promotion3 from './Home/promotion3.jpg';
 
 export default {
     elektrika,
@@ -18,4 +21,7 @@ export default {
     logo,
     logoDark,
     guaranteesImage,
+    promotion1,
+    promotion2,
+    promotion3,
 };

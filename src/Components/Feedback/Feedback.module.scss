@@ -1,23 +1,34 @@
 .feedback {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 
     .feedback_category {
         text-align: center;
         color: #ffcb01;
+        white-space: nowrap;
+    }
+
+    .comment_container:hover {
+        .comment_icon {
+            filter: none;
+        }
     }
 
     .comment_container {
-        height: 100px;
+        height: 110px;
         display: flex;
         margin: 20px 0;
+        align-items: center;
 
         .feedback_comment {
+            width: 100%;
             font-family: Montserrat-SemiBold;
-        }
-
-        .comment_icon:hover {
-            filter: none;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            height: 110px;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
         }
 
         .comment_icon {
@@ -34,7 +45,7 @@
         text-align: center;
         font-family: Montserrat-Bold;
         font-size: 14px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .feedback_rating {
@@ -59,12 +70,42 @@
     }
 }
 
+@media (min-width: 1400px) {
+    .feedback {
+        width: 80%;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    .feedback {
+        width: 80%;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .feedback {
+        width: 70%;
+
+    }
+}
+
 @media (max-width: 650px) {
     .feedback {
-        width: 100%;
+        width: 90%;
 
-        p {
-            padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .feedback {
+        .comment_container {
+            .feedback_comment {
+                font-size: 14px;
+                line-height: 18px;
+                -webkit-line-clamp: 6;
+            }
         }
     }
 }
